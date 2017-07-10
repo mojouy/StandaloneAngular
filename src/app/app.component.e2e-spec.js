@@ -21,7 +21,7 @@ describe('App', function () {
   });
 
   it('should have <footer>', function () {
-    expect(element(by.css('my-app footer')).getText()).toEqual("Webpack Angular 2 Starter");
+    expect(element(by.css('my-app footer')).getText()).toEqual("NR Starting Pack");
   });
 
 });
